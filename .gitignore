@@ -1,0 +1,10 @@
+# Project exclude paths
+/.gradle/
+/Introduction/Hello, world_/out/
+/Introduction/Hello, world_/out/production/classes/
+/Introduction/Hello, world_/out/test/classes/
+/Introduction/Named arguments/build/
+/Introduction/Named arguments/out/
+/Introduction/Named arguments/out/production/classes/
+/Introduction/Named arguments/out/test/classes/
+/util/build/
