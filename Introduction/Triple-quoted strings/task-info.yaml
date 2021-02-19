@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 162
-    length: 13
+    length: 16
     placeholder_text: .trimIndent()
     initial_state:
       length: 13
       offset: 162
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: .trimMargin("#")
   text: |-
     const val question = "life, the universe, and everything"
@@ -44,15 +44,8 @@ files:
         }
     }
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: 'org.junit.ComparisonFailure: The margin prefix shouldn&#39;t be present
-    in the resulting string '
-  time: Fri, 19 Feb 2021 02:03:47 UTC
-  expected: |-
-    #question = "life, the universe, and everything"
-    #answer = 42
-  actual: |-
-    question = "life, the universe, and everything"
-    answer = 42
+  message: Congratulations!
+  time: Fri, 19 Feb 2021 02:07:53 UTC
 record: -1
