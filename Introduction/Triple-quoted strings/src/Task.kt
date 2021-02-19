@@ -6,5 +6,5 @@ val tripleQuotedString = """
     #answer = $answer""".trimIndent()
 
 fun main() {
-    println(tripleQuotedString)
+    println(tripleQuotedString.trimMargin("#"))
 }

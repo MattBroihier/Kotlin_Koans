@@ -12,7 +12,7 @@ files:
       offset: 162
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: .trimMargin("#")
   text: |-
     const val question = "life, the universe, and everything"
@@ -44,5 +44,15 @@ files:
         }
     }
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: 'org.junit.ComparisonFailure: The margin prefix shouldn&#39;t be present
+    in the resulting string '
+  time: Fri, 19 Feb 2021 02:03:47 UTC
+  expected: |-
+    #question = "life, the universe, and everything"
+    #answer = 42
+  actual: |-
+    question = "life, the universe, and everything"
+    answer = 42
 record: -1
