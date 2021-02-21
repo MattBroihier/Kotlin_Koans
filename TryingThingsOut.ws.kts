@@ -9,4 +9,6 @@ var ThirdFloat = 0.3
 
 println (FirstFloat + SecondFloat == ThirdFloat)
 
+println (FirstFloat + SecondFloat - ThirdFloat)
+
 println (FirstFloat)
