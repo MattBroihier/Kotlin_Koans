@@ -13,9 +13,9 @@ println (FirstFloat + SecondFloat - ThirdFloat)
 
 println (FirstFloat)
 
-var b: String? = "abc" // can be set null
-b = null // ok
-print(b)
+var bb: String? = "abc" // can be set null
+bb = null // ok
+print(bb)
 
 val b: String? = "Kotlin"
 if (b != null && b.length > 0) {
